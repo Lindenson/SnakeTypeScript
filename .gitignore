@@ -1,0 +1,6 @@
+.idea
+nodemodules
+.idea/*
+nodemodules/*
+dist
+dist/*

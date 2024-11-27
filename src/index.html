@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="./public/snake.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Snake</title>
+</head>
+
+<body>
+	<h1>S-s-s-nake.....</h1>
+	<div class="flex">
+		<table>
+			<tr>
+				<td class="snake" id="r0c0"></td>
+				<td class="snake" id="r0c1"></td>
+				<td class="snake" id="r0c2"></td>
+				<td class="snake" id="r0c3"></td>
+				<td class="snake" id="r0c4"></td>
+				<td class="snake" id="r0c5"></td>			
+				<td class="snake" id="r0c6"></td>
+				<td class="snake" id="r0c7"></td>			
+				<td class="snake" id="r0c8"></td>
+				<td class="snake" id="r0c9"></td>
+				<td class="snake" id="r0c10"></td>
+				<td class="snake" id="r0c11"></td>
+			</tr>
+			<tr>
+				<td class="snake" id="r1c0"></td>
+				<td class="snake" id="r1c1"></td>
+				<td class="snake" id="r1c2"></td>
+				<td class="snake" id="r1c3"></td>
+				<td class="snake" id="r1c4"></td>
+				<td class="snake" id="r1c5"></td>			
+				<td class="snake" id="r1c6"></td>
+				<td class="snake" id="r1c7"></td>			
+				<td class="snake" id="r1c8"></td>
+				<td class="snake" id="r1c9"></td>
+				<td class="snake" id="r1c10"></td>
+				<td class="snake" id="r1c11"></td>
+			</tr>	
+			<tr>
+				<td class="snake" id="r2c0"></td>
+				<td class="snake" id="r2c1"></td>
+				<td class="snake" id="r2c2"></td>
+				<td class="snake" id="r2c3"></td>
+				<td class="snake" id="r2c4"></td>
+				<td class="snake" id="r2c5"></td>			
+				<td class="snake" id="r2c6"></td>
+				<td class="snake" id="r2c7"></td>			
+				<td class="snake" id="r2c8"></td>
+				<td class="snake" id="r2c9"></td>
+				<td class="snake" id="r2c10"></td>
+				<td class="snake" id="r2c11"></td>
+			</tr>
+			<tr>
+				<td class="snake" id="r3c0"></td>
+				<td class="snake" id="r3c1"></td>
+				<td class="snake" id="r3c2"></td>
+				<td class="snake" id="r3c3"></td>
+				<td class="snake" id="r3c4"></td>
+				<td class="snake" id="r3c5"></td>			
+				<td class="snake" id="r3c6"></td>
+				<td class="snake" id="r3c7"></td>			
+				<td class="snake" id="r3c8"></td>
+				<td class="snake" id="r3c9"></td>
+				<td class="snake" id="r3c10"></td>
+				<td class="snake" id="r3c11"></td>
+			</tr>	
+			<tr>
+				<td class="snake" id="r4c0"></td>
+				<td class="snake" id="r4c1"></td>
+				<td class="snake" id="r4c2"></td>
+				<td class="snake" id="r4c3"></td>
+				<td class="snake" id="r4c4"></td>
+				<td class="snake" id="r4c5"></td>			
+				<td class="snake" id="r4c6"></td>
+				<td class="snake" id="r4c7"></td>			
+				<td class="snake" id="r4c8"></td>
+				<td class="snake" id="r4c9"></td>
+				<td class="snake" id="r4c10"></td>
+				<td class="snake" id="r4c11"></td>
+			</tr>
+			<tr>
+				<td class="snake" id="r5c0"></td>
+				<td class="snake" id="r5c1"></td>
+				<td class="snake" id="r5c2"></td>
+				<td class="snake" id="r5c3"></td>
+				<td class="snake" id="r5c4"></td>
+				<td class="snake" id="r5c5"></td>			
+				<td class="snake" id="r5c6"></td>
+				<td class="snake" id="r5c7"></td>			
+				<td class="snake" id="r5c8"></td>
+				<td class="snake" id="r5c9"></td>
+				<td class="snake" id="r5c10"></td>
+				<td class="snake" id="r5c11"></td>
+			</tr>	
+			<tr>
+				<td class="snake" id="r6c0"></td>
+				<td class="snake" id="r6c1"></td>
+				<td class="snake" id="r6c2"></td>
+				<td class="snake" id="r6c3"></td>
+				<td class="snake" id="r6c4"></td>
+				<td class="snake" id="r6c5"></td>			
+				<td class="snake" id="r6c6"></td>
+				<td class="snake" id="r6c7"></td>			
+				<td class="snake" id="r6c8"></td>
+				<td class="snake" id="r6c9"></td>
+				<td class="snake" id="r6c10"></td>
+				<td class="snake" id="r6c11"></td>
+			</tr>
+			<tr>
+				<td class="snake" id="r7c0"></td>
+				<td class="snake" id="r7c1"></td>
+				<td class="snake" id="r7c2"></td>
+				<td class="snake" id="r7c3"></td>
+				<td class="snake" id="r7c4"></td>
+				<td class="snake" id="r7c5"></td>			
+				<td class="snake" id="r7c6"></td>
+				<td class="snake" id="r7c7"></td>			
+				<td class="snake" id="r7c8"></td>
+				<td class="snake" id="r7c9"></td>
+				<td class="snake" id="r7c10"></td>
+				<td class="snake" id="r7c11"></td>
+			</tr>	
+			<tr>
+				<td class="snake" id="r8c0"></td>
+				<td class="snake" id="r8c1"></td>
+				<td class="snake" id="r8c2"></td>
+				<td class="snake" id="r8c3"></td>
+				<td class="snake" id="r8c4"></td>
+				<td class="snake" id="r8c5"></td>			
+				<td class="snake" id="r8c6"></td>
+				<td class="snake" id="r8c7"></td>			
+				<td class="snake" id="r8c8"></td>
+				<td class="snake" id="r8c9"></td>
+				<td class="snake" id="r8c10"></td>
+				<td class="snake" id="r8c11"></td>
+			</tr>
+			<tr>
+				<td class="snake" id="r9c0"></td>
+				<td class="snake" id="r9c1"></td>
+				<td class="snake" id="r9c2"></td>
+				<td class="snake" id="r9c3"></td>
+				<td class="snake" id="r9c4"></td>
+				<td class="snake" id="r9c5"></td>			
+				<td class="snake" id="r9c6"></td>
+				<td class="snake" id="r9c7"></td>			
+				<td class="snake" id="r9c8"></td>
+				<td class="snake" id="r9c9"></td>
+				<td class="snake" id="r9c10"></td>
+				<td class="snake" id="r9c11"></td>
+			</tr>	
+			<tr>
+				<td class="snake" id="r10c0"></td>
+				<td class="snake" id="r10c1"></td>
+				<td class="snake" id="r10c2"></td>
+				<td class="snake" id="r10c3"></td>
+				<td class="snake" id="r10c4"></td>
+				<td class="snake" id="r10c5"></td>			
+				<td class="snake" id="r10c6"></td>
+				<td class="snake" id="r10c7"></td>			
+				<td class="snake" id="r10c8"></td>
+				<td class="snake" id="r10c9"></td>
+				<td class="snake" id="r10c10"></td>
+				<td class="snake" id="r10c11"></td>
+			</tr>
+			<tr>
+				<td class="snake" id="r11c0"></td>
+				<td class="snake" id="r11c1"></td>
+				<td class="snake" id="r11c2"></td>
+				<td class="snake" id="r11c3"></td>
+				<td class="snake" id="r11c4"></td>
+				<td class="snake" id="r11c5"></td>			
+				<td class="snake" id="r11c6"></td>
+				<td class="snake" id="r11c7"></td>			
+				<td class="snake" id="r11c8"></td>
+				<td class="snake" id="r11c9"></td>
+				<td class="snake" id="r11c10"></td>
+				<td class="snake" id="r11c11"></td>
+			</tr>	
+		</table>
+		<div class="forImage">
+			<img src="./public/snake.png" alt=""/>
+			<p class="arrows">&#8593; &#8595; &#8592; &#8594;</p>
+			<div id="forDialog">
+				<div id="dialog">
+					<h3>You have lost</h3>
+					<p id="points">getting ... points</p>
+					<button id="button">OK</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="module">
+	import { run } from "./js/main.js";
+	run();
+</script>
+
+</html>
+
+

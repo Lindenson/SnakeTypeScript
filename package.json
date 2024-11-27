@@ -1,0 +1,21 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "snake game",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "migueltilo",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jquery": "^3.5.32",
+    "jquery": "^3.7.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.16.2",
+    "vite": "^6.0.1"
+  }
+}
